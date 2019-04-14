@@ -1,0 +1,355 @@
+{
+	"info": {
+		"_postman_id": "7de2744e-9439-4647-aa8f-8c6cd62cad9b",
+		"name": "Sample Node-Restify",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SQL Server",
+			"item": [
+				{
+					"name": "/sqlserver/city",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "6572d17b-794b-4b80-993a-35fc90389900"
+							},
+							{
+								"key": "accept-version",
+								"value": "2.0"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"ZipCode\": \"12345\",\n\t\"CityName\": \"Ciudad 12345\"\n}"
+						},
+						"url": {
+							"raw": "localhost:3010/sqlserver/city/12345",
+							"host": [
+								"localhost"
+							],
+							"port": "3010",
+							"path": [
+								"sqlserver",
+								"city",
+								"12345"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/sqlserver/city",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "6572d17b-794b-4b80-993a-35fc90389900"
+							},
+							{
+								"key": "accept-version",
+								"value": "1.4"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3010/sqlserver/city/",
+							"host": [
+								"localhost"
+							],
+							"port": "3010",
+							"path": [
+								"sqlserver",
+								"city",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/sqlserver/city",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "6572d17b-794b-4b80-993a-35fc90389900"
+							},
+							{
+								"key": "accept-version",
+								"value": "2.0"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"CityName\": \"Peñalolén\"}\n"
+						},
+						"url": {
+							"raw": "localhost:3010/sqlserver/city/12345",
+							"host": [
+								"localhost"
+							],
+							"port": "3010",
+							"path": [
+								"sqlserver",
+								"city",
+								"12345"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/sqlserver/city/",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "6572d17b-794b-4b80-993a-35fc90389900"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "localhost:3010/sqlserver/city/ff",
+							"host": [
+								"localhost"
+							],
+							"port": "3010",
+							"path": [
+								"sqlserver",
+								"city",
+								"ff"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "MongoDB",
+			"item": [
+				{
+					"name": "/mongodb/city",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "6572d17b-794b-4b80-993a-35fc90389900"
+							},
+							{
+								"key": "accept-version",
+								"value": "2.0"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"ZipCode\": \"fF\",\n\t\"CityName\": \"Providencia\"\n}"
+						},
+						"url": {
+							"raw": "localhost:3010/mongodb/city",
+							"host": [
+								"localhost"
+							],
+							"port": "3010",
+							"path": [
+								"mongodb",
+								"city"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/mongodb/city",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "6572d17b-794b-4b80-993a-35fc90389900"
+							},
+							{
+								"key": "",
+								"value": "1.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3010/mongodb/city",
+							"host": [
+								"localhost"
+							],
+							"port": "3010",
+							"path": [
+								"mongodb",
+								"city"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/mongodb/city",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "6572d17b-794b-4b80-993a-35fc90389900"
+							},
+							{
+								"key": "accept-version",
+								"value": "2.0"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"CityName\": \"Lo Barnechea\"}\n"
+						},
+						"url": {
+							"raw": "localhost:3010/mongodb/city/f",
+							"host": [
+								"localhost"
+							],
+							"port": "3010",
+							"path": [
+								"mongodb",
+								"city",
+								"f"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/mongodb/city",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "6572d17b-794b-4b80-993a-35fc90389900"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "localhost:3010/mongodb/city/ff",
+							"host": [
+								"localhost"
+							],
+							"port": "3010",
+							"path": [
+								"mongodb",
+								"city",
+								"ff"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Samples",
+			"item": [
+				{
+					"name": "/samples/math",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept-version",
+								"value": "1.8.9"
+							},
+							{
+								"key": "Authorization",
+								"value": "6572d17b-794b-4b80-993a-35fc90389900"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3010/samples/math/20/10",
+							"host": [
+								"localhost"
+							],
+							"port": "3010",
+							"path": [
+								"samples",
+								"math",
+								"20",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/samples/case",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept-version",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "6572d17b-794b-4b80-993a-35fc90389900"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:3000/samples/case/ChangeTEXTcasE",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"samples",
+								"case",
+								"ChangeTEXTcasE"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
