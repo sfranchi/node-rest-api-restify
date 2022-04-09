@@ -17,7 +17,7 @@
     "dotenv": "^7.0.0",
     "fluent-validator": "1.1.0",
     "lodash": "4.17.11",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mongodb": "^3.2.3",
     "mssql": "^5.0.5",
     "restify": "^8.3.0",
