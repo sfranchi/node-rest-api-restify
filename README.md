@@ -108,7 +108,7 @@ Utilizamos [SemVer](https://semver.org/lang/es/) para el versionado de nuestros 
 
 ## Autores
 
--   **Sandro Franchi** - _Desarrollo de sample y presentación_ - [@sandrof](https://github.com/sfranchi)
+-   **Sandro Franchi** - _Desarrollo de sample y presentación_ - [@sfranchi](https://github.com/sfranchi)
 
 Puede ver también la lista de [contribuidores](#) que han participado en este repositorio.
 
